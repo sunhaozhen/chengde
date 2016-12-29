@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>我的投诉记录</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/mui.css"/>
+	<link rel="stylesheet" type="text/css" href="css/css.css"/>
+	<style type="text/css">
+		.green-ball {
+    width: 10px;
+    height: 10px;
+    background-color: #FF0055;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-style {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.control-item-inline {
+    width:25%;
+    display:inline-block;
+    float: left;
+}
+
+.mui-control-content {
+    min-height: 300px;
+}
+	</style>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">我的投诉记录</h1>
+	</header>
+	<nav class="mui-bar mui-bar-tab">
+	    <a class="mui-tab-item ">
+	        <span class="mui-icon iconfont icon-shouye-copy"></span>
+	        <span class="mui-tab-label">首页</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon iconfont icon-jiaofei"></span>
+	        <span class="mui-tab-label">缴费</span>
+	    </a>
+	    <a class="mui-tab-item mui-active">
+	        <span class="mui-icon iconfont icon-yichangbaoxiu"></span>
+	        <span class="mui-tab-label">报修</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon iconfont icon-fuwu"></span>
+	        <span class="mui-tab-label">服务</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon iconfont icon-wo"></span>
+	        <span class="mui-tab-label">我的</span>
+	    </a>
+	</nav>
+    <div class="mui-content">
+     	
+     	  <div id="slider" class="mui-slider">
+        <div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+            <div class="block-style">
+                <div class="control-item-inline"><a class="mui-control-item mui-active" href="#item1mobile">全部</a></div>
+                <div class="control-item-inline"><a class="mui-control-item" href="#item2mobile">未处理</a></div>
+                
+                <div class="control-item-inline"><a class="mui-control-item" href="#item3mobile">处理中</a></div>
+                <div class="control-item-inline"><a class="mui-control-item" href="#item4mobile">已处理</a></div>
+                
+                
+            </div>
+        </div>
+
+        <!-- 进度条 -->
+        <div class="block-style">
+            <div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-3" style="margin-top: -6px;">
+
+            </div>
+        </div>
+
+        <div class="mui-slider-group">
+            <!-- 支付宝 -->
+            <div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+            	<div class="mui-card tsjl">
+					<div class="mui-card-header ">
+						<div class="mui-col-sm-9 mui-col-xs-9">
+							<span>投诉内容</span><span class="mui-icon mui-icon-arrowright"></span>
+						</div>
+						<div class="mui-col-sm-3 mui-col-xs-3">
+							<p class="mui-pull-right p1" >未处理</p>
+						</div>
+					</div>
+					<div class="mui-card-content">
+						<div class="mui-row" >
+							<div class="mui-col-sm-3 mui-col-xs-3">
+							<img src="images/ban1.jpg" alt=""  />
+
+						</div>
+						<div class="mui-col-sm-9 mui-col-xs-9 jl-right" >
+							我家的客厅灯坏了，还有洗手间漏水，麻烦来修一下，谢谢
+						</div>
+						</div>
+						
+					</div>
+					<div class="mui-card-footer">
+						<div class="mui-col-sm-12 mui-col-xs-12">
+							<p class="mui-pull-right">时间：2016.12.12</p>
+						</div>
+					</div>
+				</div>
+				<div class="mui-card tsjl">
+					<div class="mui-card-header ">
+						<div class="mui-col-sm-9 mui-col-xs-9">
+							<span>投诉内容</span><span class="mui-icon mui-icon-arrowright"></span>
+						</div>
+						<div class="mui-col-sm-3 mui-col-xs-3">
+							<p class="mui-pull-right p1" >处理中</p>
+						</div>
+					</div>
+					<div class="mui-card-content">
+						<div class="mui-row" >
+							<div class="mui-col-sm-3 mui-col-xs-3">
+							<img src="images/ban1.jpg" alt=""  />
+
+						</div>
+						<div class="mui-col-sm-9 mui-col-xs-9 jl-right" >
+							我家的客厅灯坏了，还有洗手间漏水，麻烦来修一下，谢谢
+						</div>
+						</div>
+						
+					</div>
+					<div class="mui-card-footer">
+						<div class="mui-col-sm-12 mui-col-xs-12">
+							<p class="mui-pull-right">时间：2016.12.12</p>
+						</div>
+					</div>
+				</div>
+				<div class="mui-card tsjl">
+					<div class="mui-card-header ">
+						<div class="mui-col-sm-9 mui-col-xs-9">
+							<span>投诉内容</span><span class="mui-icon mui-icon-arrowright"></span>
+						</div>
+						<div class="mui-col-sm-3 mui-col-xs-3">
+							<p class="mui-pull-right p1" >已处理 </p>
+
+						</div>
+					</div>
+					<div class="mui-card-content">
+						<div class="mui-row" >
+							<div class="mui-col-sm-3 mui-col-xs-3">
+							<img src="images/ban1.jpg" alt=""  />
+
+						</div>
+						<div class="mui-col-sm-9 mui-col-xs-9 jl-right" >
+							我家的客厅灯坏了，还有洗手间漏水，麻烦来修一下，谢谢
+						</div>
+						</div>
+						
+					</div>
+					<div class="mui-card-footer">
+						<div class="mui-col-sm-12 mui-col-xs-12">
+							<p class="mui-pull-right">时间：2016.12.12</p>
+						</div>
+					</div>
+				</div>
+				
+
+            </div>
+            <!-- 口碑 -->
+            <div id="item2mobile" class="mui-slider-item mui-control-content">
+            	<div class="mui-card tsjl">
+					<div class="mui-card-header ">
+						<div class="mui-col-sm-9 mui-col-xs-9">
+							<span>投诉内容</span><span class="mui-icon mui-icon-arrowright"></span>
+						</div>
+						<div class="mui-col-sm-3 mui-col-xs-3">
+							<p class="mui-pull-right p1" >未处理</p>
+						</div>
+					</div>
+					<div class="mui-card-content">
+						<div class="mui-row" >
+							<div class="mui-col-sm-3 mui-col-xs-3">
+							<img src="images/ban1.jpg" alt=""  />
+
+						</div>
+						<div class="mui-col-sm-9 mui-col-xs-9 jl-right" >
+							我家的客厅灯坏了，还有洗手间漏水，麻烦来修一下，谢谢
+						</div>
+						</div>
+						
+					</div>
+					<div class="mui-card-footer">
+						<div class="mui-col-sm-12 mui-col-xs-12">
+							<p class="mui-pull-right">时间：2016.12.12</p>
+						</div>
+					</div>
+				</div>
+            </div>
+            <!-- 朋友 -->
+            <div id="item3mobile" class="mui-slider-item mui-control-content">
+            	<div class="mui-card tsjl">
+					<div class="mui-card-header ">
+						<div class="mui-col-sm-9 mui-col-xs-9">
+							<span>投诉内容</span><span class="mui-icon mui-icon-arrowright"></span>
+						</div>
+						<div class="mui-col-sm-3 mui-col-xs-3">
+							<p class="mui-pull-right p1" >处理中 </p>
+
+						</div>
+					</div>
+					<div class="mui-card-content">
+						<div class="mui-row" >
+							<div class="mui-col-sm-3 mui-col-xs-3">
+							<img src="images/ban1.jpg" alt=""  />
+
+						</div>
+						<div class="mui-col-sm-9 mui-col-xs-9 jl-right" >
+							我家的客厅灯坏了，还有洗手间漏水，麻烦来修一下，谢谢
+						</div>
+						</div>
+						
+					</div>
+					<div class="mui-card-footer">
+						<div class="mui-col-sm-12 mui-col-xs-12">
+							<p class="mui-pull-right">时间：2016.12.12</p>
+						</div>
+					</div>
+				</div>
+            </div>
+            <!-- 我的 -->
+            <div id="item4mobile" class="mui-slider-item mui-control-content">
+            	<div class="mui-card tsjl">
+					<div class="mui-card-header ">
+						<div class="mui-col-sm-9 mui-col-xs-9">
+							<span>投诉内容</span><span class="mui-icon mui-icon-arrowright"></span>
+						</div>
+						<div class="mui-col-sm-3 mui-col-xs-3">
+							<p class="mui-pull-right p1" >已处理 </p>
+
+						</div>
+					</div>
+					<div class="mui-card-content">
+						<div class="mui-row" >
+							<div class="mui-col-sm-3 mui-col-xs-3">
+							<img src="images/ban1.jpg" alt=""  />
+
+						</div>
+						<div class="mui-col-sm-9 mui-col-xs-9 jl-right" >
+							我家的客厅灯坏了，还有洗手间漏水，麻烦来修一下，谢谢
+						</div>
+						</div>
+						
+					</div>
+					<div class="mui-card-footer">
+						<div class="mui-col-sm-12 mui-col-xs-12">
+							<p class="mui-pull-right">时间：2016.12.12</p>
+						</div>
+					</div>
+				</div>
+				<div class="mui-card tsjl">
+					<div class="mui-card-header ">
+						<div class="mui-col-sm-9 mui-col-xs-9">
+							<span>投诉内容</span><span class="mui-icon mui-icon-arrowright"></span>
+						</div>
+						<div class="mui-col-sm-3 mui-col-xs-3">
+							<p class="mui-pull-right p1" >已处理 </p>
+
+						</div>
+					</div>
+					<div class="mui-card-content">
+						<div class="mui-row" >
+							<div class="mui-col-sm-3 mui-col-xs-3">
+							<img src="images/ban1.jpg" alt=""  />
+
+						</div>
+						<div class="mui-col-sm-9 mui-col-xs-9 jl-right" >
+							我家的客厅灯坏了，还有洗手间漏水，麻烦来修一下，谢谢
+						</div>
+						</div>
+						
+					</div>
+					<div class="mui-card-footer">
+						<div class="mui-col-sm-12 mui-col-xs-12">
+							<p class="mui-pull-right">时间：2016.12.12</p>
+						</div>
+					</div>
+				</div>
+            </div>
+           
+            
+        </div>
+    </div>
+    </div>
+    <script src="js/mui.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    mui.init()
+    </script>
+    <script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>

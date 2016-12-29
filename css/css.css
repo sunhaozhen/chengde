@@ -1,0 +1,117 @@
+*{
+	font-family: "微软雅黑";
+}
+
+/*首页*/
+.ad{
+	margin: 10px;
+	padding: 10px;
+	height: 80px;
+
+	background: #F9F9F9;
+	box-sizing: ;
+}
+.mnav p{
+	font-size: 0.7rem;
+	
+}
+.img1{
+	width: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 100rem;
+}
+.img2{
+	width: 100%;
+	padding: 10px;
+}
+
+/*报修记录*/
+.bxjl .mui-row{
+	padding: 10px
+	;
+}
+.red{
+	color: red;
+}
+.bxjl .p1{
+	padding-top: 10px;
+}
+.bxjl .jl-right{
+	padding-left: 1rem;
+}
+.bxxq{
+	padding-bottom: 2rem;
+}
+.bxxq img{
+
+	padding: 10px;
+	width: 100%;
+}
+/*投诉记录*/
+.tsjl .mui-row{
+	padding: 10px
+	;
+}
+.red{
+	color: red;
+}
+.tsjl .p1{
+	padding-top: 10px;
+}
+.tsjl .jl-right{
+	padding-left: 1rem;
+}
+.tsxq{
+	padding-bottom: 2rem;
+}
+.tsxq img{
+
+	padding: 10px;
+	width: 100%;
+}
+.wcl{
+	height: 4rem;
+	line-height: 4rem;
+	background: rgb(0,122,255);
+	color: #f0f0f0;
+}
+.wcl span{
+	padding-left: 1rem;
+
+}
+.chew{
+	height: 4rem;
+	line-height: 4rem;
+	background: #F0F0F0;
+	color: #333333;
+}
+.jiaof{
+	padding: 0 10px;
+}
+.p2{
+	font-size: 1.5rem; 
+	color:rgb(0,117,202);
+}
+.p3{
+	font-size: 2rem;
+	color: #333333;
+}
+.p4{
+	font-size: 1.2rem;
+}
+.p4 span{
+	font-size: 1rem;
+}
+.tright{
+	height: 1.7rem;
+	line-height: 1.7rem;
+	padding:0 20px 0 20px;
+	background: #999999;
+	border-radius: 20px;
+}
+.tright p{
+
+	color: white;
+}
+
